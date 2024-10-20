@@ -1,4 +1,4 @@
-# Thunder Enchancement
+# Thunder Enhancement
 A Fabric/Quilt only Minecraft mod that overhauls how lightnings sounds and looks.
 Wont be ported to forge, do it yourself.
 

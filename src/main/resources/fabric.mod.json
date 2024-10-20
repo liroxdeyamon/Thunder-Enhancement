@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "thunderenhancement",
+  "version": "${version}",
+  "name": "Thunder Enhancement",
+  "description": "A Fabric/Quilt only Minecraft mod that overhauls how lightnings sounds and looks.",
+  "authors": ["LiroxDeYamon"],
+  "contact": {
+    "repo": "https://github.com/liroxdeyamon/Thunder-Enhancement"
+  },
+  "license": "MIT",
+  "icon": "assets/thunderenhancement/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.lirox.thunderenhancement.client.ThunderEnhancementClient"
+    ],
+    "main": [
+      "org.lirox.thunderenhancement.ThunderEnhancement"
+    ]
+  },
+  "mixins": [
+    "thunderenhancement.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
