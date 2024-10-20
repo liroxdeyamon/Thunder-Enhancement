@@ -29,4 +29,5 @@ public abstract class LightningRenderMixin {
         LOGGER.info("a");
         ci.cancel();
     }
+    // todo: random complexity (aka num of branches), random flashes count (how many times the main line will strike ground)
 }
